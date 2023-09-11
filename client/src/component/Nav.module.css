@@ -1,0 +1,19 @@
+
+.main{
+    display:flex;
+    background-color:grey;
+  border: .5px solid rgb(175, 47, 47);
+    flex-direction:row;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.maincontent{
+  
+   display:flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.adduser{
+    margin:51px 0px 21px 11px;
+}

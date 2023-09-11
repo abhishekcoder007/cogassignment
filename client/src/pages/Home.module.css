@@ -1,0 +1,37 @@
+
+.main{
+    display:flex;
+    background-color:grey;
+  border: .5px solid rgb(175, 47, 47);
+    flex-direction:row;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.maincontent{
+  
+   display:flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.adduser{
+    margin:51px 0px 21px 11px;
+}
+table {
+    font-family: arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
